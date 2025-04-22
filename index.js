@@ -15,7 +15,8 @@ app.use(express.json());
 app.get('/', (req, res) => {    
     res.json(
         {
-            "Title": "Hola mundo desde express"
+            "num1": 6,
+            "num2": 9
         }
     );
 })
